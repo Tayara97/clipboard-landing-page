@@ -1,16 +1,16 @@
 {
-  "homepage": "Tayara97.github.io/clipboard-landing-page",
+  "homepage": "https://Tayara97.github.io/clipboard-landing-page",
   "name": "clipboard-landing-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
